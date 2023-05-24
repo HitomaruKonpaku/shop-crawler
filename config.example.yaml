@@ -1,0 +1,71 @@
+interval: 5
+
+urls:
+  # jp-0
+  # - https://shop.geekjack.net/collections/tokino-sora
+  # - https://shop.geekjack.net/collections/roboco-san
+  # - https://shop.geekjack.net/collections/sakura-miko
+  # - https://shop.geekjack.net/collections/hoshimachi-suisei
+  # - https://shop.geekjack.net/collections/azki
+  # jp-1
+  # - https://shop.geekjack.net/collections/yozora-mel
+  # - https://shop.geekjack.net/collections/shirakami-fubuki
+  # - https://shop.geekjack.net/collections/natsuiro-matsuri
+  # - https://shop.geekjack.net/collections/aki-rosenthal
+  # - https://shop.geekjack.net/collections/akai-haato
+  # jp-2
+  # - https://shop.geekjack.net/collections/minato-aqua
+  # - https://shop.geekjack.net/collections/murasaki-shion
+  # - https://shop.geekjack.net/collections/nakiri-ayame
+  # - https://shop.geekjack.net/collections/yuzuki-choco
+  # - https://shop.geekjack.net/collections/oozora-subaru
+  # jp-gamers
+  # - https://shop.geekjack.net/collections/ookami-mio
+  # - https://shop.geekjack.net/collections/nekomata-okayu
+  # - https://shop.geekjack.net/collections/inugami-korone
+  # jp-3
+  # - https://shop.geekjack.net/collections/usada-pekora
+  # - https://shop.geekjack.net/collections/shiranui-flare
+  # - https://shop.geekjack.net/collections/shirogane-noel
+  # - https://shop.geekjack.net/collections/houshou-marine
+  # jp-4
+  # - https://shop.geekjack.net/collections/amane-kanata
+  # - https://shop.geekjack.net/collections/kiryu-coco
+  # - https://shop.geekjack.net/collections/tsunomaki-watame
+  # - https://shop.geekjack.net/collections/himemori-luna
+  # jp-5
+  # - https://shop.geekjack.net/collections/yukihana-lamy
+  # - https://shop.geekjack.net/collections/momosuzu-nene
+  # - https://shop.geekjack.net/collections/shishiro-botan
+  # - https://shop.geekjack.net/collections/omaru-polka
+  # jp-6
+  # - https://shop.geekjack.net/collections/laplus-darknesss
+  # - https://shop.geekjack.net/collections/takane-lui
+  # - https://shop.geekjack.net/collections/hakui-koyori
+  # - https://shop.geekjack.net/collections/sakamata-chloe
+  # - https://shop.geekjack.net/collections/kazama-iroha
+  # en-1
+  # - https://shop.geekjack.net/collections/mori-calliope
+  # - https://shop.geekjack.net/collections/takanashi-kiara
+  # - https://shop.geekjack.net/collections/ninomae-inanis
+  # - https://shop.geekjack.net/collections/gawr-gura
+  # - https://shop.geekjack.net/collections/watson-amelia
+  # en-2
+  # - https://shop.geekjack.net/collections/irys
+  # - https://shop.geekjack.net/collections/tsukumo-sana
+  # - https://shop.geekjack.net/collections/ceres-fauna
+  # - https://shop.geekjack.net/collections/ouro-kronii
+  # - https://shop.geekjack.net/collections/nanashi-mumei
+  # - https://shop.geekjack.net/collections/hakos-baelz
+  # id-1
+  # - https://shop.geekjack.net/collections/ayunda-risu
+  # - https://shop.geekjack.net/collections/moona-hoshinova
+  # - https://shop.geekjack.net/collections/airani-iofifteen
+  # id-2
+  # - https://shop.geekjack.net/collections/kureiji-ollie
+  # - https://shop.geekjack.net/collections/anya-melfissa
+  # - https://shop.geekjack.net/collections/pavolia-reine
+  # id-3
+  # - https://shop.geekjack.net/collections/vestia-zeta
+  # - https://shop.geekjack.net/collections/kaela-kovalskia
+  # - https://shop.geekjack.net/collections/kobo-kanaeru
