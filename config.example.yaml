@@ -69,3 +69,8 @@ urls:
   # - https://shop.geekjack.net/collections/vestia-zeta
   # - https://shop.geekjack.net/collections/kaela-kovalskia
   # - https://shop.geekjack.net/collections/kobo-kanaeru
+
+notifier:
+  discord:
+    - webhookUrl: https://discord.com/api/webhooks/xxxxx
+      message: <@153363129915539457>
