@@ -33,13 +33,13 @@ export class Crawler {
 
   private async getInfo() {
     try {
-      console.debug('-->', this.url)
+      console.debug(new Date().toISOString(), '-->', this.url)
       const { data: payload } = await axios.get(this.url)
       const items = new GeekjackParser(this.url, payload).parse()
-      console.debug('<--', this.url, { itemCount: items.length })
+      console.debug(new Date().toISOString(), '<--', this.url, { itemCount: items.length })
       items.forEach((v) => this.handleItem(v))
     } catch (error) {
-      console.error(error.message, { url: this.url, func: 'getInfo' })
+      console.error(new Date().toISOString(), error.message, { url: this.url, func: 'getInfo' })
       debugger
     }
   }
