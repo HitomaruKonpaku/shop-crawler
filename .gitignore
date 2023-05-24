@@ -1,0 +1,9 @@
+node_modules/
+db/
+dist/
+logs/
+.idea/
+.tmp/
+
+.env
+config.yaml
