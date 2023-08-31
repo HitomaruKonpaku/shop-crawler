@@ -44,7 +44,7 @@ export class Crawler {
     }
   }
 
-  private handleItem(item: ShopItem) {
+  private async handleItem(item: ShopItem) {
     if (this.items[item.id]) {
       return
     }
@@ -55,14 +55,16 @@ export class Crawler {
     if (!item.isLimited) {
       return
     }
-    this.notifyItem(item)
+    await this.notifyItem(item)
   }
 
   private async notifyItem(item: ShopItem) {
     if (config.notifier?.discord?.length) {
       await Promise.allSettled(config.notifier.discord.map(async (v) => {
         const payload = { content: [v.message, item.url].join('\n') }
+        console.debug(new Date().toISOString(), '-->', 'webhook', this.url)
         await axios.post(v.webhookUrl, payload)
+        console.debug(new Date().toISOString(), '<--', 'webhook', this.url)
       }))
     }
   }
